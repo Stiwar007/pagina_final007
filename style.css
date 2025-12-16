@@ -369,3 +369,110 @@ hr{
 a{
     color: black;
 }
+
+@media (max-width: 768px) {
+
+    header {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0.5rem 1rem;
+    }
+
+    .search {
+        width: 100%;
+        order: 3;
+    }
+
+    .nav-menu ul {
+        gap: 10px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .content-grande {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .main-section {
+        width: 100%;
+    }
+
+    .spotify-playlist .card {
+        overflow-x: auto;
+    }
+
+    .spotify-playlist .card::-webkit-scrollbar {
+        height: 5px;
+    }
+
+    .spotify-playlist .card::-webkit-scrollbar-thumb {
+        background: #555;
+        border-radius: 10px;
+    }
+
+    .footer-section .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-section .footer .footer-links {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .preview {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .preview button {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+
+    .logo {
+        width: 30px;
+    }
+
+    .iconos_1 {
+        width: 1.4rem;
+        padding: 8px;
+    }
+
+    .spotify-playlist h2 {
+        font-size: 18px;
+    }
+
+    .spotify-playlist .card .item {
+        min-width: 120px;
+        width: 150px;
+    }
+
+    .footer-section {
+        padding: 20px;
+    }
+
+    .copyright {
+        font-size: 13px;
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {
+
+    .sidebar {
+        width: 280px;
+    }
+
+    .main-section {
+        width: calc(100% - 280px);
+    }
+
+    .spotify-playlist .card {
+        gap: 15px;
+    }
+}
