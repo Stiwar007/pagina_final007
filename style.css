@@ -107,7 +107,7 @@ nav a{
 .sidebar-nav{
     background-color: #1c1b1b;
     border-radius: 10px;
-    padding: 40px 10px;
+    padding: 30px 10px;
 }
 .sidebar-nav ul{
     list-style: none;
@@ -215,7 +215,7 @@ nav a{
 }
 .main-section{
     margin-top: 10px;
-    width: 950px;
+    width: 800px;
     background: #1b1b1b;
     border-radius: 10px;
 }
