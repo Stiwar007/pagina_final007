@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('/img/desktop-wallpaper-spotify.jpg');
+    background-image: url('./img/desktop-wallpaper-spotify.jpg');
     background-size: cover;
 }
 .form-register{
